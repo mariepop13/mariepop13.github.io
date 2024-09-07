@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, 
+        #ff9999, /* rouge-rose plus doux */
+        #ffb366, /* orange plus doux */
+        #ffff99, /* jaune plus doux */
+        #99ff99, /* vert plus doux */
+        #99ccff, /* bleu plus doux */
+        #cc99ff, /* indigo plus doux */
+        #ff99ff  /* violet plus doux */
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.link {
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.link:hover {
+    transform: scale(1.05);
+}
+
+.tiktok { background-color: #000000; }
+.instagram { background-color: #E1306C; }
+.chatgpt { background-color: #10A37F; }
+.buymeacoffee { background-color: #FFDD00; color: #000000; }
